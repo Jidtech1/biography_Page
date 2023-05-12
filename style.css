@@ -1,0 +1,43 @@
+*{
+margin: 0; 
+padding:0;
+box-sizing: border-box;
+font-family: 'Times New Roman', Times, serif;
+}
+
+
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("olajide.jpg") no-repeat;
+    background-size: cover;
+
+}
+
+.hero-content{
+    max-width: 600px;
+}
+
+.hero-content h2{
+    font-size: 56px;
+    font-weight: 700;
+    color: #080808;
+}
+
+.hero-content h4{
+    font-size: 32px;
+    font-weight: 700;
+    color: #00abf0;
+    margin-bottom: 20px;
+}
+
+
+
+.btn{
+    padding: 10px;
+    width: 100px;
+    height: 100%;
+    background: #080808;
+    color: #ededed;
+}
